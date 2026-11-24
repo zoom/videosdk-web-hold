@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@zoom/videosdk": "^2.6.10",
+    "@zoom/videosdk-ui-toolkit": "^2.6.0-2",
     "lucide-react": "^1.68.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

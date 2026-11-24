@@ -12,7 +12,15 @@ This Sample offers a demo of the Hold Feature using Zoom Video SDK, enabling out
 ## Installation
 To get started, clone the repo:
 
-`git clone https://github.com/zoom/videosdk-web-waiting-room.git`
+`git clone https://github.com/zoom/videosdk-web-hold.git`
+
+Navigate to the root directory:
+
+`cd videosdk-web-hold`
+
+and install the dependencies:
+
+`npm install`
 
 ## JWT Helper
 
@@ -24,7 +32,7 @@ ZOOM_SDK_KEY=
 ZOOM_SDK_SECRET=
 ```
 
-2. Run `bun generateToken.ts [sessionname] [role (0 or 1)] [hold (0, 1, or 2)] --copy-to-clipboard`
+2. Run `npm run token [sessionname] [role (0 or 1)] [hold (0, 1, or 2)] --copy-to-clipboard`
 
 The script generates a token for the proivded session name and the `--copy-to-clipboard` or `-c` flag copies it to your clipboard.
 
