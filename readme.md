@@ -6,7 +6,7 @@ The [Zoom Video SDK for web](https://developers.zoom.us/docs/video-sdk/web/) ena
 This Sample offers a demo of the Hold Feature using Zoom Video SDK, enabling out-the-box waiting room functionality compatible between Video SDK platforms
 
 ## Prequisites
-- NPM and Node.js
+- NPM and Node.js v24.7.0
 - Active Video SDK Account
 
 ## Installation
@@ -55,5 +55,4 @@ For the full list of features and event listeners, as well as additional guides,
 If you're looking for help, try [Developer Support](https://devsupport.zoom.us) or our [Developer Forum](https://devforum.zoom.us). Priority support is also available with [Premier Developer Support](https://explore.zoom.us/docs/en-us/developer-support-plans.html) plans.
 
 ## Disclaimer
-
-Do not expose your credentials to the client, when using the Video SDK in production please make sure to use a backend service to sign the tokens. Don't store credentials in plain text, as this is a sample app we're using an `.env` for sake of simplicity.
+This app is for demo purposes and thus not production ready. Do not expose your credentials to the client, when using the Video SDK in production please make sure to use a backend service to sign the tokens. Don't store credentials in plain text, as this is a sample app we're using an `.env` for sake of simplicity.
